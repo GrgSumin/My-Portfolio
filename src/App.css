@@ -1,0 +1,48 @@
+.App {
+    background-color: #151515;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.active-link {
+    color: #F1FE92;
+  }
+  
+
+footer {
+    margin-top: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px; /* Adjusted padding */
+    background-color:black;
+    color: #BAB3A9;
+    border-top: solid 2px #BAB3A9;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left p {
+    margin: 5px 0;
+}
+
+.footer-right {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-right a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.footer-right a:hover {
+    color: #1da1f2;
+}
