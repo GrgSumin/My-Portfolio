@@ -4,7 +4,7 @@ import WaveReveal from "../WaveReveal";
 
 function Aboutme() {
   const controls = useAnimation();
-  const ref = useRef();
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const refElement = ref.current;
@@ -18,7 +18,7 @@ function Aboutme() {
           }
         });
       },
-      { threshold: 0.5 } // Adjust threshold as per your needs
+      { threshold: 0.5 }
     );
 
     observer.observe(refElement);
